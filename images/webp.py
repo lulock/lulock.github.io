@@ -11,8 +11,8 @@ import glob, os
 
 size = 1024, 1024
 
-# os.makedirs('../thumbs/')    
-# new_dir = '../thumbs/'
+os.makedirs('../webp/')    
+new_dir = '../webp/'
 quality = 100
 
 for infile in glob.glob("*.png"):
@@ -20,4 +20,4 @@ for infile in glob.glob("*.png"):
     im = Image.open(infile)
     # im.thumbnail(size)
     # im.save(new_dir + file + "-thumbnail.png", "PNG")
-    im.save(file + "-thumbnail.webp", "webp", quality = quality)
+    im.save(new_dir + file + "-thumbnail.webp", "webp", quality = quality)
