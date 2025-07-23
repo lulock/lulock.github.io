@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Lulock&#39;s World</title>
+    <link>//localhost:1313/projects/</link>
+    <description>Recent content in Projects on Lulock&#39;s World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>leila.methnani@umu.se (Leila Methnani)</managingEditor>
+    <webMaster>leila.methnani@umu.se (Leila Methnani)</webMaster>
+    <copyright>© 2025 Leila Methnani</copyright>
+    <atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Pomoloco TUI</title>
+      <link>//localhost:1313/projects/project3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>leila.methnani@umu.se (Leila Methnani)</author>
+      <guid>//localhost:1313/projects/project3/</guid>
+      <description>CLI pomodoro app written in Go and TUI equivalent with the help of BubbleTea.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/project3/featuredpomo.gif" />
+    </item>
+    
+    <item>
+      <title>Python minis (featuring boids)</title>
+      <link>//localhost:1313/projects/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>leila.methnani@umu.se (Leila Methnani)</author>
+      <guid>//localhost:1313/projects/project2/</guid>
+      <description>Mini projects written in Python.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/project2/featuredboids.gif" />
+    </item>
+    
+    <item>
+      <title>Simple HTML side-scroller</title>
+      <link>//localhost:1313/projects/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>leila.methnani@umu.se (Leila Methnani)</author>
+      <guid>//localhost:1313/projects/project1/</guid>
+      <description>Sidescroller co-developed with ChatGPT for Ethics of Game AI workshop at European Conference on AI.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/project1/featured.gif" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lulock&#39;s World</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Lulock&#39;s World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>leila.methnani@umu.se (Leila Methnani)</managingEditor>
+    <webMaster>leila.methnani@umu.se (Leila Methnani)</webMaster>
+    <copyright>© 2025 Leila Methnani</copyright>
+    <lastBuildDate>Wed, 09 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/aboutme/</link>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      <author>leila.methnani@umu.se (Leila Methnani)</author>
+      <guid>//localhost:1313/aboutme/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>//localhost:1313/posts/myfirstpost/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <author>leila.methnani@umu.se (Leila Methnani)</author>
+      <guid>//localhost:1313/posts/myfirstpost/</guid>
+      <description>This is my first post on my site</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/myfirstpost/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>My second post</title>
+      <link>//localhost:1313/posts/mysecondpost/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <author>leila.methnani@umu.se (Leila Methnani)</author>
+      <guid>//localhost:1313/posts/mysecondpost/</guid>
+      <description>This is my second post on my site</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mysecondpost/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>My third post</title>
+      <link>//localhost:1313/posts/mythirdpost/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <author>leila.methnani@umu.se (Leila Methnani)</author>
+      <guid>//localhost:1313/posts/mythirdpost/</guid>
+      <description>This is my third post on my site</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mythirdpost/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Pomoloco TUI</title>
+      <link>//localhost:1313/projects/project3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>leila.methnani@umu.se (Leila Methnani)</author>
+      <guid>//localhost:1313/projects/project3/</guid>
+      <description>CLI pomodoro app written in Go and TUI equivalent with the help of BubbleTea.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/project3/featuredpomo.gif" />
+    </item>
+    
+    <item>
+      <title>Python minis (featuring boids)</title>
+      <link>//localhost:1313/projects/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>leila.methnani@umu.se (Leila Methnani)</author>
+      <guid>//localhost:1313/projects/project2/</guid>
+      <description>Mini projects written in Python.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/project2/featuredboids.gif" />
+    </item>
+    
+    <item>
+      <title>Simple HTML side-scroller</title>
+      <link>//localhost:1313/projects/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>leila.methnani@umu.se (Leila Methnani)</author>
+      <guid>//localhost:1313/projects/project1/</guid>
+      <description>Sidescroller co-developed with ChatGPT for Ethics of Game AI workshop at European Conference on AI.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/project1/featured.gif" />
+    </item>
+    
+  </channel>
+</rss>
