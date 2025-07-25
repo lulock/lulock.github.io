@@ -31,17 +31,17 @@
   #pre = "ghost"
   weight = 10
 
-[[main]]
-  name = "Publications"
-  parent = "Research"
+#[[main]]
+#  name = "Publications"
+#  parent = "Research"
   #pageRef = "posts"
-  weight = 20
+#  weight = 20
 
-[[main]]
-  name = "Talks"
-  parent = "Research"
+#[[main]]
+#  name = "Talks"
+#  parent = "Research"
 #  pageRef = "posts"
-  weight = 20
+#  weight = 20
 
 #[[main]]
 #  name = "example sub-menu 2"
