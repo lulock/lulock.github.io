@@ -4,5 +4,5 @@ description: "Read my blog."
 cascade:
   showReadingTime: false
 ---
-This section contains all my blog posts.
+Coming soon! I plan to use this blog to track progress of various personal projects (like this [pomodoro :tomato: TUI]() -- devlog to come)
 

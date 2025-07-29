@@ -13,32 +13,32 @@
     
     <item>
       <title>Pomoloco TUI</title>
-      <link>//localhost:1313/projects/project3/</link>
+      <link>//localhost:1313/projects/1pomoloco/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>leila.methnani@umu.se (Leila Methnani)</author>
-      <guid>//localhost:1313/projects/project3/</guid>
+      <guid>//localhost:1313/projects/1pomoloco/</guid>
       <description>CLI pomodoro app written in Go and TUI equivalent with the help of BubbleTea.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/project3/featuredpomo.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1pomoloco/featuredpomo.png" />
     </item>
     
     <item>
       <title>Python minis (featuring boids)</title>
-      <link>//localhost:1313/projects/project2/</link>
+      <link>//localhost:1313/projects/boids/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>leila.methnani@umu.se (Leila Methnani)</author>
-      <guid>//localhost:1313/projects/project2/</guid>
+      <guid>//localhost:1313/projects/boids/</guid>
       <description>Mini projects written in Python.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/project2/featuredboids.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/boids/featuredboids.gif" />
     </item>
     
     <item>
       <title>Simple HTML side-scroller</title>
-      <link>//localhost:1313/projects/project1/</link>
+      <link>//localhost:1313/projects/sidescroller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>leila.methnani@umu.se (Leila Methnani)</author>
-      <guid>//localhost:1313/projects/project1/</guid>
+      <guid>//localhost:1313/projects/sidescroller/</guid>
       <description>Sidescroller co-developed with ChatGPT for Ethics of Game AI workshop at European Conference on AI.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/project1/featured.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/sidescroller/featured.png" />
     </item>
     
   </channel>

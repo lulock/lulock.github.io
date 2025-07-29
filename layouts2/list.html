@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ $url := "https://pub.orcid.org/v3.0/0000-0002-9808-2037/works"}}
+{{ $opts := dict
+  "headers" (dict "Accept" "application/json")
+}}
+{{ $resource := resources.GetRemote $url $opts }}
+{{ $data := $resource | transform.Unmarshal }}
+
+<h1 class="text-bg font-bg" >Publications</h1>
+<ul>
+  {{ range $data.group }}
+    {{ $summary := index (index . "work-summary") 0 }}
+    {{ with index (index (index $summary "title") "title") "value" }}
+      <li>{{ . }}</li>
+    {{ else }}
+      <li><em>No title found</em></li>
+    {{ end }}
+  {{ end }}
+</ul>
+
+{{ end }}

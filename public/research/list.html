@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+{{ $url := "https://pub.orcid.org/v3.0/0000-0002-9808-2037/works" }}
+{{ $remote := resources.GetRemote $url }}
+{{ $data := $remote | transform.Unmarshal }}
+
+<h1>Publications</h1>
+<ul>
+  {{ range $data.group }}
+    {{ $summary := index .["work-summary"] 0 }}
+    <li>
+      {{ $summary.title.title.value }}
+      ({{ $summary["publication-date"].year.value }})
+    </li>
+  {{ end }}
+</ul>
+
+{{ end }}
+

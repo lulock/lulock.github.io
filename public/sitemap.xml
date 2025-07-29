@@ -16,25 +16,6 @@
   </url>
   <url>
     <loc>//localhost:1313/posts/</loc>
-    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/posts/myfirstpost/</loc>
-    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/posts/mysecondpost/</loc>
-    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/posts/mythirdpost/</loc>
-    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -44,7 +25,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/project3/</loc>
+    <loc>//localhost:1313/projects/1pomoloco/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -54,12 +35,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/project2/</loc>
+    <loc>//localhost:1313/projects/boids/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/project1/</loc>
+    <loc>//localhost:1313/projects/sidescroller/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
