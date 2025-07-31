@@ -50,7 +50,7 @@ cascade:
 
 {{</ rawhtml >}}
 
-Check out the full website repo below! :point_down:
+### Check out the full website repo below! :point_down:
 
 {{< github repo="egai-workshop/egai-workshop.github.io" showThumbnail=true >}}
 
