@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+
+	<title>reveal.js – The HTML Presentation Framework</title>
+
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML" />
+	<meta name="author" content="Hakim El Hattab" />
+
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" href="dist/reset.css" />
+	<link rel="stylesheet" href="dist/reveal.css" />
+	<!-- <link rel="stylesheet" href="dist/theme/black.css" id="theme" /> -->
+	<link rel="stylesheet" href="dist/theme/simple.css" id="theme" />
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="dist/plugin/highlight/monokai.css" />
+</head>
+
+<body>
+	<div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section data-background-image="https://github.com/lulock/defence/blob/main/coveriii.png?raw=true">
+
+				<h3>Navigating the sociotechnical gap in explainable artificial intelligence</h3>
+				<p>
+					<small>Leila Methnani</small>
+				</p>
+
+			</section>
+			<section>
+				<h2>In 2022</h2>
+				<p>Excited about building technical solutions that address social needs.</p>
+			</section>
+			<section>
+				<h2>In 2026</h2>
+				<p>No novel algorithm. But I built something else instead. </p>
+				<p>Why it matters</p>
+			</section>
+
+			<style>
+				.fragment.highlight.visible {
+					background-color: #f5d87a;
+				}
+			</style>
+			<style>
+				.definition {
+					text-decoration: underline;
+					text-decoration-color: #f5d87a;
+					text-decoration-style: wavy;
+				}
+			</style>
+			<style>
+				.title {
+					text-decoration: underline;
+					text-decoration-color: #f5d87a;
+				}
+			</style>
+
+			<section data-auto-animate>
+				<div class="r-stack">
+					<img data-src="https://github.com/lulock/defence/blob/main/fragile box.png?raw=true" width="600">
+
+			</section>
+			<section data-auto-animate>
+				<div class="r-stack">
+					<img data-src="https://github.com/lulock/defence/blob/main/application.png?raw=true" width="600">
+
+					<img data-src="https://github.com/lulock/defence/blob/main/fragile box.png?raw=true" width="600">
+
+				</div>
+			</section>
+			<section data-auto-animate>
+				<div class="r-stack">
+					<img data-src="https://github.com/lulock/defence/blob/main/no.png?raw=true" width="600">
+					<img data-src="https://github.com/lulock/defence/blob/main/application.png?raw=true" width="600">
+					<img data-src="https://github.com/lulock/defence/blob/main/fragile box.png?raw=true" width="600">
+				</div>
+			</section>
+
+			<section data-auto-animate>
+
+				<div class="r-stack">
+					<img data-src="https://github.com/lulock/defence/blob/main/no.png?raw=true" width="600">
+					<img data-src="https://github.com/lulock/defence/blob/main/application.png?raw=true" width="600">
+					<img style="filter: saturate(0%) brightness(5%);"
+						data-src="https://github.com/lulock/defence/blob/main/fragile box.png?raw=true" width="600">
+				</div>
+			</section>
+			<section data-auto-animate>
+				<div class="r-stack">
+					<img data-src="https://github.com/lulock/defence/blob/main/no.png?raw=true" width="600">
+					<img data-src="https://github.com/lulock/defence/blob/main/application.png?raw=true" width="600">
+					<img style="filter: saturate(0%) brightness(5%);"
+						data-src="https://github.com/lulock/defence/blob/main/fragile box.png?raw=true" width="600">
+					<img data-src="https://github.com/lulock/defence/blob/main/dnn.png?raw=true" width="400">
+
+				</div>
+			</section>
+			<section>
+				<div class="r-stack">
+
+					<img data-src="https://github.com/lulock/defence/blob/main/article.png?raw=true" width="600">
+
+
+				</div>
+			</section>
+
+
+			<!-- <section data-transition="none">
+					<h2 class="definition">Black box</h2>
+
+					<p>A term used to refer to AI models where the inner decision-making processes are opaque to the observer.</p>
+
+					<p>Also called <span style="font-style: italic;">opaque</span> models.</p>
+
+				</section> -->
+			<section>
+
+				<div class="r-stack">
+					<img class="fragment" data-src="https://github.com/lulock/defence/blob/main/arrow.png?raw=true"
+						width="450">
+					<div class="r-hstack justify-center">
+
+						<div data-id="box2" data-auto-animate-delay="0.1"
+							style="background: rgb(55, 9, 115); width: 150px; height: 100px; margin: 10px">
+							<p style="color: #fff;">Social</p>
+						</div>
+						</br>
+						</br>
+						<div data-id="box3" data-auto-animate-delay="0.2"
+							style="background: #f3d408; width: 150px; height: 100px; margin: 10px">
+							<p style="color: #0c0000;">Tech</p>
+						</div>
+					</div>
+					<img class="fragment" data-src="https://github.com/lulock/defence/blob/main/arrow.png?raw=true"
+						width="450" style="transform: scaleY(-1) scaleX(-1);">
+
+				</div>
+
+
+			</section>
+
+			<section data-transition="none">
+				<h2 class="definition">Sociotechnical gap</h2>
+
+				<q>The divide between what we know we must support socially and what we can support technically.</q>
+				<p style="font-weight: bolder;">
+					- Ackerman
+				</p>
+
+			</section>
+
+			<section data-auto-animate>
+				<div class="r-stack">
+
+					<img data-src="https://github.com/lulock/defence/blob/main/article.png?raw=true" width="600">
+
+				</div>
+			</section>
+
+			<section data-auto-animate>
+				<h2 class="definition"><span class="fragment semi-fade-out" data-fragment-index="1">E</span>X<span
+						class="fragment semi-fade-out" data-fragment-index="1">PLAINABLE</span>
+					A<span class="fragment semi-fade-out" data-fragment-index="1">RTFICIAL</span>
+					I<span class="fragment semi-fade-out" data-fragment-index="1">NTELLIGENCE</span></h2>
+			</section>
+
+			<section>
+				<section id="fragments">
+					<h2>XAI supports </h2>
+					<p class="fragment" data-fragment-index="1">
+						<span class="fragment shrink" data-fragment-index="4" style="display: inline-block;">
+							<span style="font-weight:bold;">Applicant:</span> learn why application was rejected
+						</span>
+					</p>
+					<p class="fragment" data-fragment-index="2"><span style="font-weight:bold;">Auditor:</span> assess
+						if system is discriminatory</p>
+
+					<p class="fragment" data-fragment-index="3">
+						<span class="fragment grow" data-fragment-index="4" style="display: inline-block;">
+							<span style="font-weight:bold;">Developer:</span> debug and improve models
+						</span>
+					</p>
+
+
+					<aside class="notes">
+						This slide has fragments which are also stepped through in the notes window.
+					</aside>
+				</section>
+
+			</section>
+
+
+			<!-- Example of nested vertical slides -->
+				<section>
+					<h2>RQ1</h2>
+					<p>
+						How are explainability and transparency tools
+						applied across domains?
+					</p>
+				</section>
+				<section>
+					<h2>Approach</h2>
+					<p>
+						Structured literature review if the Variable Autonomy robotics community and their consideration
+						for both transparency and explainability.
+					</p>
+				</section>
+				<section data-auto-animate>
+					<h2 class="definition">Variable Autonomy System</h2>
+					<q>One in which control can be traded between a human operator and a robot by switching between
+						different Levels of Autonomy.
+					</q>
+					<p> - Chiou et al.</p>
+
+				</section>
+				<section>
+
+					<img data-src="https://github.com/lulock/defence/blob/main/wwwh.png?raw=true" width="300">
+
+					<br />
+				</section>
+
+
+				<section>
+					<h2>RQ2</h2>
+					<p>
+						How, if at all, can we select explainability tools based on contextual elements that determine its applicability?
+					</p>
+
+				</section>
+				<section data-transition="none">
+					<h2>Approach</h2>
+					<p>
+						Propose formalisation of explainer choice with <span
+							class="fragment custom highlight">computational argumentation</span>.
+					</p>
+				</section>
+				<section>
+					<p>Argumentation is a way to represent and reason about arguments in AI.</p>
+					<img data-src="https://github.com/lulock/defence/blob/main/not_lime.png?raw=true" width="400">
+
+					<p>Semantics to determine accepted arguments.</p>
+				</section>
+				<section>
+					<img data-src="https://github.com/lulock/defence/blob/main/MXRS.png?raw=true" width="600">
+
+				</section>
+				<section>
+					Transparency into explainability? Ironic?
+				</section>
+				<section>
+					<h2 class="definition">Mental Model</h2>
+					<q>Knowledge of how the system works, what its components are, how they are related, what the
+						internal processes are, and how they affect the components.</q>
+					<p style="font-weight: bolder;">
+						- Caroll and Olsson.
+					</p>
+
+				</section>
+
+				<section>
+
+					<p>AI outputs influence mental models, but so do the explanations that accompany them.</p>
+					<img data-src="https://github.com/lulock/defence/blob/main/MXRS.png?raw=true" width="600">
+
+					<p>Interactivity and social elements become important to consider.</p>
+				</section>
+				<section>
+					<h2>The inmates are running the assylum</h2>
+					<p class="fragment">
+						Miller et al. call on XAI researchers to engage with the social sciences.
+					</p>
+					<p class="fragment">
+						Explanations are contrastive, selected, and <span
+							class="fragment custom highlight">social</span>.
+					</p>
+				</section>
+				<section>
+					EXPLAIN project brought stakeholders across industry and academia in Europe and asked how we might
+					design and develop interactive XAI for the process industries.
+				</section>
+
+
+				<section>
+					<h2>RQ3</h2>
+					<p>
+						How can we incorporate the social and interactive
+						elements of explainability using existing methods?
+					</p>
+				</section>
+				<section>
+					<h2>Approach</h2>
+					<p class="fragment">
+						Human-centric design
+					</p>
+					<p class="fragment">
+						Contextual inquiry
+					</p>
+					
+					<p class="fragment">
+						Interactive dashboard prototypes
+					</p>
+
+				</section>
+				<section>
+					<p class="fragment">AI suggestions often did not align with their own mental models</p>
+					<p class="fragment"><span class="fragment custom highlight">historical examples</span> to be important for how they
+						explain current scenarios in order to decide on how to adjust parameters of the process. </p>
+					<p class="fragment">Counterfactuals were used in combination with feature importance.</p>
+				</section>
+				<section>
+					<img data-src="https://github.com/lulock/defence/blob/main/dashboard-overview.png?raw=true"
+						width="600">
+				</section>
+				<section>
+					<p>Not all explainability methods evaluated with human subjects.</p>
+				</section>
+				<section data-auto-animate>
+					<ul>
+						<li>Validity</li>
+						<li>Proximity</li>
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<ul>
+						<li>Validity</li>
+						<li>Sparsity</li>
+						<li>Proximity</li>
+						<li>Diversity</li>
+						<li>Feasibility</li>
+					</ul>
+				</section>
+
+			<section>
+				<h2>The inmates are running the assylum</h2>
+
+				<p>
+					Explanations are contrastive, selected, and <span class="fragment custom highlight">social</span>.
+				</p>
+			</section>
+
+			<section>
+				<p>We often explain in conversation</p>
+				<p>Grice's Cooperative Principle</p>
+			</section>
+
+			<section>
+					<h2 class="definition"> Grice's Maxims of Conversation </h2>
+
+				<p class="fragment"><span style="font-weight: bolder;">Quantity</span>: be as informative as required
+				</p>
+				<p class="fragment"><span style="font-weight: bolder;">Quality</span>: be truthful</p>
+				<p class="fragment"><span style="font-weight: bolder;">Relation</span>: stay relevant </p>
+				<p class="fragment"><span style="font-weight: bolder;">Manner</span>: be clear, brief, and orderly </p>
+			</section>
+
+			<section>
+					<h2>RQ4</h2>
+					<p>
+						What relationships exist between the common (but
+						unstandardised) evaluation practices of explainable artificial intelligence and conversational
+						maxims posed by pragmatics theory?
+					</p>
+
+				</section>
+				<section data-transition="none">
+					<h2>Approach</h2>
+					<p>
+						Focus group study with computer scientists and social scientists.
+					</p>
+					<p>
+						Discussed if parallels could be drawn.
+					</p>
+					<p>
+						Image of materials used...
+					</p>
+				</section>
+				<section>
+					<p>Mappings look similar across focus groups.</p>
+					<p>But it is not so clean cut.</p>
+					<span class="r-hstack justify-center" style="gap: 3rem;">
+						<img data-auto-animate
+							data-src="https://github.com/lulock/defence/blob/main/sankey1.png?raw=true" width="500">
+
+						<img data-auto-animate
+							data-src="https://github.com/lulock/defence/blob/main/sankey2.png?raw=true" width="450">
+					</span>
+				</section>
+				<section data-auto-animate>
+					<span class="r-hstack justify-center" style="gap: 3rem;">
+						<img data-auto-animate
+							data-src="https://github.com/lulock/defence/blob/main/01sankey.png?raw=true" width="600">
+
+						<img data-auto-animate
+							data-src="https://github.com/lulock/defence/blob/main/02sankey.png?raw=true" width="600">
+					</span>
+				</section>
+			<section>
+				<h2>Critique of technosolutionism puts things into perspective</h2>
+			</section>
+
+			<section data-transition="none">
+				<h2 class="definition">Reinforcement Learning from Human Feedback (RLHF)</h2>
+
+				<p>
+					Learn a reward model from human preference, and use it to steer another model towards high-reward
+					outputs.
+				</p>
+
+			</section>
+
+			<section>
+				<h2>Helpful? Harmless? Honest?</h2>
+				<p>Some humans' values favoured over others.</p>
+				<p>Provides an illusion of alignment and safety</p>
+			</section>
+
+			<section>
+				<h2>Mirrors my struggle with XAI research</h2>
+				<p>Crafting 'human-friendly' explanations with too many assumptions may do more harm than good.</p>
+				<p>Come to terms with complexities of RQ4</p>
+				<p>Provides an illusion of alignment and safety</p>
+			</section>
+
+			<section>
+				<h2>We cannot cram </h2>
+				<h2> complex social concepts</h2>
+					<h2>into <span class="fragment custom highlight">neat technical boxes</span>.</h2>
+			</section>
+
+			<section>
+				<h2>Moving forward</h2>
+				<p>
+					Improvements through larger data collection through human factors studies
+				</p>
+			</section>
+
+			<section>
+				<h2>Be more <span class="fragment custom highlight">transparent</span> about explainability practice.</h2>
+			</section>
+			<section>
+				<h2>Enrich explanations with</h2>
+				<h2> <span class="fragment custom highlight">context</span> to support their interpretation.</h2>
+			</section>
+			<section>
+				<h2>Thank You</h2>
+			</section>
+
+
+
+
+			<section>
+				<h2>XAI is fragmented?</h2>
+				<p>
+					Disagreement around fundamental terms.
+				</p>
+				<p>
+					Disagreement around how to evaluate.
+				</p>
+				<p>
+					Disagreement around whether we should be generating explanations at all to foster trust and support
+					human understanding of black box models.
+				</p>
+
+			</section>
+			<section data-transition="none">
+				<h2>Pluralism is perhaps ... good?</h2>
+				<p>
+					Relevant social groups: a diverse set of relevant social groups con-
+					tribute to the social construction process.
+
+				</p>
+				<p>
+					Interpretive flexibility: technologies are open to multiple possible in-
+					terpretations given the many relevant social groups.
+				</p>
+				<p>
+					Closure: the event of having converged to a consensus regarding techno-
+					logical definitions or designs through “stabilisation”, resulting in a “disappearance of problems”
+					[193]
+				</p>
+
+
+			</section>
+
+
+			<section data-transition="none">
+				<h2 class="definition">Explanation</h2>
+
+				<q>An explanation is an <span class="fragment custom highlight">‘interface’</span> between humans and a
+					decision maker
+					that is at the same time both an <span class="fragment custom highlight">accurate proxy</span> of
+					the decision maker and <span class="fragment custom highlight">comprehensible</span> to humans.
+
+				</q>
+				<p style="font-weight: bolder;">
+					- Guidotti et al.
+				</p>
+
+			</section>
+
+			<section data-visibility="hidden">
+				<h2>Hidden Slides</h2>
+				<p>
+					This slide is visible in the source, but hidden when the presentation is viewed. You can
+					show all hidden slides by setting the `showHiddenSlides` config option to `true`.
+				</p>
+			</section>
+
+
+	<script src="dist/reveal.js"></script>
+	<script src="dist/plugin/zoom.js"></script>
+	<script src="dist/plugin/notes.js"></script>
+	<script src="dist/plugin/search.js"></script>
+	<script src="dist/plugin/markdown.js"></script>
+	<script src="dist/plugin/highlight.js"></script>
+	<script>
+		// Also available as an ES module, see: https://revealjs.com/initialization/
+		// import Reveal from 'reveal.js';
+		// import RevealZoom from 'reveal.js/plugin/zoom';
+		// import RevealNotes from 'reveal.js/plugin/notes';
+		// import RevealSearch from 'reveal.js/plugin/search';
+		// import RevealMarkdown from 'reveal.js/plugin/markdown';
+		// import RevealHighlight from 'reveal.js/plugin/highlight';
+
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			center: true,
+			hash: true,
+			transition: 'none',
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight],
+		});
+	</script>
+</body>
+
+</html>
