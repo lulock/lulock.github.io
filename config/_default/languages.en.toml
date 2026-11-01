@@ -1,6 +1,6 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+locale = "en"
+label = "English"
 weight = 1
 title = "Lulock's World"
 
@@ -16,13 +16,13 @@ title = "Lulock's World"
 
 [params.author]
   name = "Leila Methnani"
-  email = "leila.methnani@umu.se"
+  #email = "leila.methnani@umu.se"
   image = "img/LM1.png"
   imageQuality = 96
   headline = "Software Engineer"
   # bio = "I am a PhD student in Computing Science at Umeå University in Sweden. My research focus is in explainable artificial intelligence."
   links = [
-    { email = "mailto:leila.methnani@umu.se" },
+#    { email = "" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },

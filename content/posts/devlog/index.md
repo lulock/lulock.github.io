@@ -1,11 +1,11 @@
 ---
-title: "Devlog 1: Making my Pomodoro CLI glamorous with BubbleTea"
+title: "Making my Pomodoro CLI glamorous with BubbleTea"
 date: 2025-09-06
 description: "Welcome to my first devlog for the Pomoloco app."
 summary: "Learn more about my progress on my Pomoloco app written in Go with BubbleTea, Cobra, and Viper."
 tags: ["welcome", "devlog", "go", "bubbletea"]
 ---
-# Devlog 1: Glamorous TUI & Dynamic Quotes
+# Glamorous TUI & Dynamic Quotes
 
 ## 🚀 So what did I do?
 - Upgraded CLI app to a full TUI using **BubbleTea**. 
